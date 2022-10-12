@@ -79,6 +79,48 @@
 			"fluid": true,
 			"fontFamilies": [
 				{
+					"fontFamily": "\"Bitter\", ui-serif, Georgia, serif",
+					"slug": "bitter",
+					"name": "Bitter",
+					"fontFace": [
+						{
+							"fontFamily": "Bitter",
+							"fontWeight": "100 900",
+							"fontStyle": "oblique 0deg 10deg",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/bitter.woff2" ]
+						}
+					]
+				},
+				{
+					"fontFamily": "\"Dancing Script\", ui-monospace, Menlo, Consolas, Monaco, \"Liberation Mono\", \"Lucida Console\", monospace",
+					"slug": "dancing-script",
+					"name": "Dancing Script",
+					"fontFace": [
+						{
+							"fontFamily": "Dancing Script",
+							"fontWeight": "100 900",
+							"fontStyle": "oblique 0deg 10deg",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/dancing-script.woff2" ]
+						}
+					]
+				},
+				{
+					"fontFamily": "\"Edu QLD Beginner\", ui-monospace, Menlo, Consolas, Monaco, \"Liberation Mono\", \"Lucida Console\", monospace",
+					"slug": "edu-qld-beginner",
+					"name": "Edu QLD Beginner",
+					"fontFace": [
+						{
+							"fontFamily": "Edu QLD Beginner",
+							"fontWeight": "100 900",
+							"fontStyle": "oblique 0deg 10deg",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/edu-qld-beginner.woff2" ]
+						}
+					]
+				},
+				{
 					"fontFamily": "Figtree, ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
 					"slug": "figtree",
 					"name": "Figtree",
@@ -107,30 +149,16 @@
 					]
 				},
 				{
-					"fontFamily": "\"Space Grotesk\", ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
-					"slug": "space-grotesk",
-					"name": "Space Grotesk",
+					"fontFamily": "\"Libre Bodoni\", ui-serif, Georgia, serif",
+					"slug": "libre-bodoni",
+					"name": "Libre Bodoni",
 					"fontFace": [
 						{
-							"fontFamily": "Space Grotesk",
+							"fontFamily": "Libre Bodoni",
 							"fontWeight": "100 900",
 							"fontStyle": "oblique 0deg 10deg",
 							"fontStretch": "normal",
-							"src": [ "file:./assets/fonts/space-grotesk.woff2" ]
-						}
-					]
-				},
-				{
-					"fontFamily": "\"Red Hat Text\", ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
-					"slug": "red-hat-text",
-					"name": "Red Hat Text",
-					"fontFace": [
-						{
-							"fontFamily": "Red Hat Text",
-							"fontWeight": "100 900",
-							"fontStyle": "oblique 0deg 10deg",
-							"fontStretch": "normal",
-							"src": [ "file:./assets/fonts/red-hat-text.woff2" ]
+							"src": [ "file:./assets/fonts/libre-bodoni.woff2" ]
 						}
 					]
 				},
@@ -149,44 +177,58 @@
 					]
 				},
 				{
-					"fontFamily": "\"Libre Bodoni\", ui-serif, Georgia, serif",
-					"slug": "libre-bodoni",
-					"name": "Libre Bodoni",
+					"fontFamily": "\"Recursive\", ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+					"slug": "recursive",
+					"name": "Recursive",
 					"fontFace": [
 						{
-							"fontFamily": "Libre Bodoni",
+							"fontFamily": "Recursive",
 							"fontWeight": "100 900",
 							"fontStyle": "oblique 0deg 10deg",
 							"fontStretch": "normal",
-							"src": [ "file:./assets/fonts/libre-bodoni.woff2" ]
+							"src": [ "file:./assets/fonts/recursive.woff2" ]
 						}
 					]
 				},
 				{
-					"fontFamily": "\"Edu QLD Beginner\", ui-monospace, Menlo, Consolas, Monaco, \"Liberation Mono\", \"Lucida Console\", monospace",
-					"slug": "edu-qld-beginner",
-					"name": "Edu QLD Beginner",
+					"fontFamily": "\"Red Hat Mono\", ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+					"slug": "red-hat-mono",
+					"name": "Red Hat Mono",
 					"fontFace": [
 						{
-							"fontFamily": "Edu QLD Beginner",
+							"fontFamily": "Red Hat Mono",
 							"fontWeight": "100 900",
 							"fontStyle": "oblique 0deg 10deg",
 							"fontStretch": "normal",
-							"src": [ "file:./assets/fonts/edu-qld-beginner.woff2" ]
+							"src": [ "file:./assets/fonts/red-hat-mono.woff2" ]
 						}
 					]
 				},
 				{
-					"fontFamily": "\"Dancing Script\", ui-monospace, Menlo, Consolas, Monaco, \"Liberation Mono\", \"Lucida Console\", monospace",
-					"slug": "dancing-script",
-					"name": "Dancing Script",
+					"fontFamily": "\"Red Hat Text\", ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+					"slug": "red-hat-text",
+					"name": "Red Hat Text",
 					"fontFace": [
 						{
-							"fontFamily": "Dancing Script",
+							"fontFamily": "Red Hat Text",
 							"fontWeight": "100 900",
 							"fontStyle": "oblique 0deg 10deg",
 							"fontStretch": "normal",
-							"src": [ "file:./assets/fonts/dancing-script.woff2" ]
+							"src": [ "file:./assets/fonts/red-hat-text.woff2" ]
+						}
+					]
+				},
+				{
+					"fontFamily": "\"Space Grotesk\", ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+					"slug": "space-grotesk",
+					"name": "Space Grotesk",
+					"fontFace": [
+						{
+							"fontFamily": "Space Grotesk",
+							"fontWeight": "100 900",
+							"fontStyle": "oblique 0deg 10deg",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/space-grotesk.woff2" ]
 						}
 					]
 				},
@@ -207,6 +249,15 @@
 				}
 			],
 			"fontSizes": [
+				{
+					"slug": "tiny",
+					"name": "Tiny",
+					"size": "14px",
+					"fluid": {
+						"min": "12px",
+						"max": "14px"
+					}
+				},
 				{
 					"slug": "small",
 					"name": "Small",

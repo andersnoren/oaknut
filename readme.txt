@@ -23,17 +23,53 @@ Davis Blocks is distributed under the terms of the GNU GPL version 2.0.
 
 Acorn bundles the following third-party resources:
 
-Albert Sans font
-License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
-Source: https://fonts.google.com/specimen/Albert+Sans
-
-STIX Two Text font
-License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
-Source: https://fonts.google.com/specimen/STIX+Two+Text
-
-author.png skull with crown image
+Acorn logo
 License: Public Domain
-Source: https://svgsilh.com/image/1299051.html
+Source: Theme author
+
+Bitter font
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Source: https://fonts.google.com/specimen/Bitter
+
+Dancing Script font
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Source: https://fonts.google.com/specimen/Dancing+Script
+
+Edu QLD Beginner font
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Source: https://fonts.google.com/specimen/Edu+QLD+Beginner
+
+Figtree font
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Source: https://fonts.google.com/specimen/Figtree
+
+Inter font
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Source: https://fonts.google.com/specimen/Inter
+
+Libre Bodoni font
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Source: https://fonts.google.com/specimen/Libre+Bodoni
+
+Lora font
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Source: https://fonts.google.com/specimen/Lora
+
+Recursive font
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Source: https://fonts.google.com/specimen/Recursive
+
+Red Hat Mono font
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Source: https://fonts.google.com/specimen/Red+Hat+Mono
+
+Red Hat Text font
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Source: https://fonts.google.com/specimen/Red+Hat+Text
+
+Space Grotesk font
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Source: https://fonts.google.com/specimen/Space+Grotesk
 
 
 == Changelog ==
