@@ -33,7 +33,11 @@ add_action( 'wp_enqueue_scripts', 'acorn_styles' );
 
 function acorn_register_block_styles() {
 
-
+	// Button: Shadow
+	register_block_style( 'core/button', array(
+		'name'  	=> 'acorn-shadow',
+		'label' 	=> esc_html__( 'Drop Shadow', 'poe' ),
+	) );
 	
 }
 add_action( 'init', 'acorn_register_block_styles' );
