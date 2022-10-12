@@ -1,6 +1,6 @@
 # Acorn
 
-Acorn is a block theme designed to help you create Linktree-esque profile pages. It includes XX color schemes, 14 fonts to choose from, and multiple button styles to help you give your link page a unique style.
+Acorn is a block theme designed to help you create Linktree-esque profile pages. Get up and running quickly with one of the 16 prebuilt theme styles, or create your own design with the 14 fonts and 8 button styles included in the theme. Acorn is built to be fast, easy to use, and fun!
 
 ![Acorn](https://github.com/andersnoren/acorn/blob/main/screenshot.png)
 
