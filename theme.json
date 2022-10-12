@@ -42,34 +42,44 @@
 			},
 			"spacingSizes": [
 				{
+					"size": "8px",
+					"slug": "10",
+					"name": "1"
+				},
+				{
+					"size": "12px",
+					"slug": "20",
+					"name": "2"
+				},
+				{
 					"size": "16px",
 					"slug": "30",
-					"name": "1"
+					"name": "3"
 				},
 				{
 					"size": "24px",
 					"slug": "40",
-					"name": "2"
+					"name": "4"
 				},
 				{
 					"size": "32px",
 					"slug": "50",
-					"name": "3"
+					"name": "5"
 				},
 				{
 					"size": "clamp(36px, 7.5vw, 40px)",
 					"slug": "60",
-					"name": "4"
+					"name": "6"
 				},
 				{
 					"size": "clamp(42px, 9vw, 48px)",
 					"slug": "70",
-					"name": "5"
+					"name": "7"
 				},
 				{
 					"size": "clamp(48px, 10.5vw, 56px)",
 					"slug": "80",
-					"name": "6"
+					"name": "8"
 				}
 			],
 			"units": [ "%", "px", "em", "rem", "vh", "vw" ]

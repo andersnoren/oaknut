@@ -49,10 +49,61 @@ a {
 
 /* Block: Button */
 
-.wp-block-button.is-style-acorn-shadow .wp-block-button__link {
+.wp-block-button.is-style-acorn-button-shadow .wp-block-button__link {
 	border: 2px solid;
 	box-sizing: border-box;
 	box-shadow: 0 1px currentColor, 0 2px currentColor, 0 3px currentColor, 0 4px currentColor, 0 5px currentColor, 0 6px currentColor;
+}
+
+[class*="button-shape-angle"] > *:not([style*='border-radius']),
+[class*="button-shape-bevel"] > *:not([style*='border-radius']),
+[class*="button-shape-chevron"] > *:not([style*='border-radius']),
+[class*="button-shape-pointed"] > *:not([style*='border-radius']),
+[class*="button-shape-rabbet"] > *:not([style*='border-radius']),
+[class*="button-shape-ribbon"] > *:not([style*='border-radius']) {
+	border-radius: 0;
+}
+
+.is-style-acorn-button-shape-angle .wp-block-button__link {
+	--clip-path: polygon(.44em 0%, 100% 0%, calc(100% - .44em) 100%, 0% 100%);
+	-webkit-clip-path: var( --clip-path );
+	clip-path: var( --clip-path );
+}
+
+.is-style-acorn-button-shape-bevel .wp-block-button__link {
+	--clip-path: polygon( .44em 0%, calc(100% - .44em) 0%, 100% .44em, 100% calc(100% - .44em), calc(100% - .44em) 100%, .44em 100%, 0% calc(100% - .44em), 0% .44em );
+	-webkit-clip-path: var( --clip-path );
+	clip-path: var( --clip-path );
+}
+
+.is-style-acorn-button-shape-chevron-left .wp-block-button__link {
+	--clip-path: polygon(100% 0%, calc( 100% - .88em ) 50%, 100% 100%, .88em 100%, 0% 50%, .88em 0%);
+	-webkit-clip-path: var( --clip-path );
+	clip-path: var( --clip-path );
+}
+
+.is-style-acorn-button-shape-chevron-right .wp-block-button__link {
+	--clip-path: polygon(calc( 100% - .88em ) 0%, 100% 50%, calc( 100% - .88em ) 100%, 0% 100%, .88em 50%, 0% 0%);
+	-webkit-clip-path: var( --clip-path );
+	clip-path: var( --clip-path );
+}
+
+.is-style-acorn-button-shape-pointed .wp-block-button__link {
+	--clip-path: polygon(.88em 0%, calc( 100% - .88em ) 0%, 100% 50%, calc( 100% - .88em ) 100%, .88em 100%, 0% 50%);
+	-webkit-clip-path: var( --clip-path );
+	clip-path: var( --clip-path );
+}
+
+.is-style-acorn-button-shape-rabbet .wp-block-button__link {
+	--clip-path: polygon(0% .44em, .44em .44em, .44em 0%, calc(100% - .44em) 0%, calc(100% - .44em) .44em, 100% .44em, 100% calc(100% - .44em), calc(100% - .44em) calc(100% - .44em), calc(100% - .44em) 100%, .44em 100%, .44em calc(100% - .44em), 0% calc(100% - .44em));
+	-webkit-clip-path: var( --clip-path );
+	clip-path: var( --clip-path );
+}
+
+.is-style-acorn-button-shape-ribbon .wp-block-button__link {
+	--clip-path: polygon(0% 0%, 100% 0%, calc( 100% - .88em ) 50%, 100% 100%, 0% 100%, .88em 50%);
+	-webkit-clip-path: var( --clip-path );
+	clip-path: var( --clip-path );
 }
 
 /* Block: Social Link */
