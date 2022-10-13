@@ -33,54 +33,67 @@ add_action( 'wp_enqueue_scripts', 'acorn_styles' );
 
 function acorn_register_block_styles() {
 
-	// Button: Shadow
+	/* SHARED BLOCK STYLES */
+
+	// These shape block styles are used by multiple blocks.
+	$button_social_blocks = array( 
+		'core/button',
+		'core/social-links'
+	);
+
+	$button_social_block_styles = array(
+		array(
+			'name'  	=> 'acorn-drop-shadow',
+			'label' 	=> esc_html__( 'Drop Shadow', 'acorn' ),
+		),
+		array(
+			'name'  	=> 'acorn-shape-angle',
+			'label' 	=> esc_html__( 'Angle Shape', 'acorn' ),
+		),
+		array(
+			'name'  	=> 'acorn-shape-bevel',
+			'label' 	=> esc_html__( 'Bevel Shape', 'acorn' ),
+		),
+		array(
+			'name'  	=> 'acorn-shape-rabbet',
+			'label' 	=> esc_html__( 'Rabbet Shape', 'acorn' ),
+		),
+	);
+
+	foreach ( $button_social_blocks as $block_name ) {
+		foreach ( $button_social_block_styles as $block_style_settings ) {
+			register_block_style( $block_name, $block_style_settings );
+		}
+	}
+
+	/* BLOCK: BUTTON */
+
 	register_block_style( 'core/button', array(
-		'name'  	=> 'acorn-button-shadow',
-		'label' 	=> esc_html__( 'Drop Shadow', 'acorn' ),
+		'name'  	=> 'acorn-shape-chevron-left',
+		'label' 	=> esc_html__( 'Chevron Left Shape', 'acorn' ),
 	) );
 
-	// Button: Shape: Angle
 	register_block_style( 'core/button', array(
-		'name'  	=> 'acorn-button-shape-angle',
-		'label' 	=> esc_html__( 'Shape: Angle', 'acorn' ),
+		'name'  	=> 'acorn-shape-chevron-right',
+		'label' 	=> esc_html__( 'Chevron Right Shape', 'acorn' ),
 	) );
 
-	// Button: Shape: Bevel
 	register_block_style( 'core/button', array(
-		'name'  	=> 'acorn-button-shape-bevel',
-		'label' 	=> esc_html__( 'Shape: Bevel', 'acorn' ),
+		'name'  	=> 'acorn-shape-pointed',
+		'label' 	=> esc_html__( 'Pointed Shape', 'acorn' ),
 	) );
 
-	// Button: Shape: Chevron Left
 	register_block_style( 'core/button', array(
-		'name'  	=> 'acorn-button-shape-chevron-left',
-		'label' 	=> esc_html__( 'Shape: Chevron Left', 'acorn' ),
+		'name'  	=> 'acorn-shape-ribbon',
+		'label' 	=> esc_html__( 'Ribbon Shape', 'acorn' ),
 	) );
 
-	// Button: Shape: Chevron Right
-	register_block_style( 'core/button', array(
-		'name'  	=> 'acorn-button-shape-chevron-right',
-		'label' 	=> esc_html__( 'Shape: Chevron Right', 'acorn' ),
-	) );
+	/* BLOCK: SOCIAL LINKS */
 
-	// Button: Shape: Pointed
-	register_block_style( 'core/button', array(
-		'name'  	=> 'acorn-button-shape-pointed',
-		'label' 	=> esc_html__( 'Shape: Pointed', 'acorn' ),
+	register_block_style( 'core/social-links', array(
+		'name'  	=> 'acorn-shape-rounded',
+		'label' 	=> esc_html__( 'Rounded Shape', 'acorn' ),
 	) );
-
-	// Button: Shape: Rabbet
-	register_block_style( 'core/button', array(
-		'name'  	=> 'acorn-button-shape-rabbet',
-		'label' 	=> esc_html__( 'Shape: Rabbet', 'acorn' ),
-	) );
-
-	// Button: Shape: Ribbon
-	register_block_style( 'core/button', array(
-		'name'  	=> 'acorn-button-shape-ribbon',
-		'label' 	=> esc_html__( 'Shape: Ribbon', 'acorn' ),
-	) );
-
 	
 }
 add_action( 'init', 'acorn_register_block_styles' );
