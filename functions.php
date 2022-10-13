@@ -27,6 +27,21 @@ add_action( 'wp_enqueue_scripts', 'acorn_styles' );
 
 
 /*	-----------------------------------------------------------------------------------------------
+	BLOCK PATTERN CATEGORIES
+	Register theme specific block pattern categories. The patterns themselves are stored in /patterns/.
+--------------------------------------------------------------------------------------------------- */
+
+function acorn_register_block_patterns() {
+
+	register_block_pattern_category( 'acorn', array(
+		'label'		=> esc_html__( 'Acorn Patterns', 'acorn' ),
+	) );
+
+}
+add_action( 'init', 'acorn_register_block_patterns' );
+
+
+/*	-----------------------------------------------------------------------------------------------
 	BLOCK STYLES
 	Register theme specific block styles.
 --------------------------------------------------------------------------------------------------- */
