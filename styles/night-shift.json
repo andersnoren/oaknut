@@ -27,7 +27,7 @@
 			}
 		},
 		"color": {
-			"gradient": "linear-gradient(180deg, #AA076B 0%, #61045F 100%)"
+			"gradient": "linear-gradient(45deg, #AA076B 0%, #61045F 100%)"
 		},
 		"elements": {
 			"button": {

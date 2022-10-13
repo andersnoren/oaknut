@@ -1,0 +1,34 @@
+{
+    "title": "Tokuma",
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "color": {
+			"palette": [
+				{
+					"slug": "foreground",
+					"color": "#D02323",
+					"name": "Foreground"
+				},
+				{
+					"slug": "background",
+					"color": "#F1EDDF",
+					"name": "Background"
+				}
+			]
+		}
+    },
+	"styles": {
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--recursive)",
+					"textTransform": "uppercase"
+				}
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--lora)"
+		}
+	}
+}
