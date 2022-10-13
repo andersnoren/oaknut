@@ -15,11 +15,6 @@
 					"slug": "background",
 					"color": "#FFCE56",
 					"name": "Background"
-				},
-				{
-					"slug": "primary",
-					"color": "#EB5757",
-					"name": "Primary"
 				}
 			]
 		},
@@ -388,11 +383,6 @@
 					"blockGap": "0"
 				}
 			},
-			"core/social-links": {
-				"spacing": {
-					"blockGap": "var(--wp--preset--spacing--40)"
-				}
-			},
 			"core/site-title": {
 				"elements": {
 					"link": {
@@ -410,6 +400,14 @@
 							}
 						}
 					}
+				}
+			},
+			"core/social-links": {
+				"color": {
+					"text": "white"
+				},
+				"spacing": {
+					"blockGap": "var(--wp--preset--spacing--40)"
 				}
 			},
 			"core/spacer": {

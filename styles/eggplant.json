@@ -1,0 +1,35 @@
+{
+    "title": "Eggplant",
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "color": {
+			"palette": [
+				{
+					"slug": "foreground",
+					"color": "#544b5b",
+					"name": "Foreground"
+				},
+				{
+					"slug": "background",
+					"color": "#e5daf5",
+					"name": "Background"
+				}
+			]
+		}
+    },
+	"styles": {
+		"elements": {
+			"button": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--inter)",
+					"letterSpacing": "-0.01em",
+					"fontWeight": "500"
+				}
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--lora)"
+		}
+	}
+}

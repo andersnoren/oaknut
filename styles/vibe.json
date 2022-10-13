@@ -1,0 +1,36 @@
+{
+    "title": "Vibe",
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "color": {
+			"palette": [
+				{
+					"slug": "foreground",
+					"color": "#000",
+					"name": "Foreground"
+				},
+				{
+					"slug": "background",
+					"color": "#FFF",
+					"name": "Background"
+				}
+			]
+		}
+    },
+	"styles": {
+		"color": {
+			"gradient": "radial-gradient(circle at calc(-50% + 788px) calc(-50% + 998px), rgb(182, 217, 225) 0%, rgba(182, 217, 225, 0) 60%), radial-gradient(circle at calc(50% + 788px) calc(-50% + 998px), rgb(172, 193, 200) 0%, rgba(172, 193, 200, 0) 60%), radial-gradient(circle at calc(50% + 788px) calc(50% + 998px), rgb(235, 191, 151) 0%, rgba(235, 191, 151, 0) 60%), radial-gradient(circle at calc(-50% + 788px) calc(50% + 998px), rgb(252, 240, 217) 0%, rgba(252, 240, 217, 0) 60%)"
+		},
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontWeight": "500"
+				}
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--inter)"
+		}
+	}
+}

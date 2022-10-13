@@ -1,0 +1,26 @@
+{
+    "title": "Domesticated Mango",
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "color": {
+			"palette": [
+				{
+					"slug": "foreground",
+					"color": "#f17a2e",
+					"name": "Foreground"
+				},
+				{
+					"slug": "background",
+					"color": "#20372b",
+					"name": "Background"
+				}
+			]
+		}
+    },
+	"styles": {
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--recursive)"
+		}
+	}
+}

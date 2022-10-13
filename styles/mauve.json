@@ -1,0 +1,27 @@
+{
+    "title": "Mauve",
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "color": {
+			"palette": [
+				{
+					"slug": "foreground",
+					"color": "#4a0a4e",
+					"name": "Foreground"
+				},
+				{
+					"slug": "background",
+					"color": "#d398a2",
+					"name": "Background"
+				}
+			]
+		}
+    },
+	"styles": {
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--edu-qld-beginner)",
+			"fontSize": "var(--wp--preset--font-size--large)"
+		}
+	}
+}

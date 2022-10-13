@@ -1,0 +1,41 @@
+{
+    "title": "Royal",
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "color": {
+			"palette": [
+				{
+					"slug": "foreground",
+					"color": "#d68092",
+					"name": "Foreground"
+				},
+				{
+					"slug": "background",
+					"color": "#161878",
+					"name": "Background"
+				}
+			]
+		}
+    },
+	"styles": {
+		"blocks": {
+			"core/social-links": {
+				"color": {
+					"text": "white"
+				}
+			}
+		},
+		"elements": {
+			"button": {
+				"color": {
+					"background": "white",
+					"text": "var(--wp--preset--color--foreground)"
+				}
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--red-hat-text)"
+		}
+	}
+}

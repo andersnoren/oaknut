@@ -1,0 +1,37 @@
+{
+    "title": "Roseanna",
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "color": {
+			"palette": [
+				{
+					"slug": "foreground",
+					"color": "#000",
+					"name": "Foreground"
+				},
+				{
+					"slug": "background",
+					"color": "#FFF",
+					"name": "Background"
+				}
+			]
+		}
+    },
+	"styles": {
+		"color": {
+			"gradient": "linear-gradient(180deg, #FFAFBD 0%, #FFC3A0 100%)"
+		},
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontWeight": "900"
+				}
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--recursive)",
+			"fontWeight": "600"
+		}
+	}
+}

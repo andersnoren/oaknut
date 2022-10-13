@@ -1,0 +1,27 @@
+{
+    "title": "Scarlet Midnight",
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "color": {
+			"palette": [
+				{
+					"slug": "foreground",
+					"color": "#fc0947",
+					"name": "Foreground"
+				},
+				{
+					"slug": "background",
+					"color": "#100034",
+					"name": "Background"
+				}
+			]
+		}
+    },
+	"styles": {
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--recursive)",
+			"fontWeight": "400"
+		}
+	}
+}

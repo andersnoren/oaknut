@@ -1,0 +1,27 @@
+{
+    "title": "Rare Delight",
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "color": {
+			"palette": [
+				{
+					"slug": "foreground",
+					"color": "#010014",
+					"name": "Foreground"
+				},
+				{
+					"slug": "background",
+					"color": "#b92ee7",
+					"name": "Background"
+				}
+			]
+		}
+    },
+	"styles": {
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--red-hat-mono)",
+			"fontSize": "var(--wp--preset--font-size--small)"
+		}
+	}
+}

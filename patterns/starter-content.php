@@ -29,27 +29,27 @@
 <div class="wp-block-group">
 	<!-- wp:buttons -->
 	<div class="wp-block-buttons">
-		<!-- wp:button {"backgroundColor":"white","width":100,"className":"is-style-acorn-drop-shadow"} -->
+		<!-- wp:button {"backgroundColor":"invalid","width":100,"className":"is-style-acorn-drop-shadow"} -->
 		<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-acorn-drop-shadow"><a
-				class="wp-block-button__link has-white-background-color has-background wp-element-button">Spreading
+				class="wp-block-button__link has-background has-invalid-background-color wp-element-button">Spreading
 				doom and gloom on Twitter</a></div>
 		<!-- /wp:button -->
 
-		<!-- wp:button {"backgroundColor":"white","width":100,"className":"is-style-acorn-drop-shadow"} -->
+		<!-- wp:button {"backgroundColor":"invalid","width":100,"className":"is-style-acorn-drop-shadow"} -->
 		<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-acorn-drop-shadow"><a
-				class="wp-block-button__link has-white-background-color has-background wp-element-button">Distracting
+				class="wp-block-button__link has-background has-invalid-background-color wp-element-button">Distracting
 				myself on Twitch</a></div>
 		<!-- /wp:button -->
 
-		<!-- wp:button {"backgroundColor":"white","width":100,"className":"is-style-acorn-drop-shadow"} -->
+		<!-- wp:button {"backgroundColor":"invalid","width":100,"className":"is-style-acorn-drop-shadow"} -->
 		<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-acorn-drop-shadow"><a
-				class="wp-block-button__link has-white-background-color has-background wp-element-button">Half-heartedly
+				class="wp-block-button__link has-background has-invalid-background-color wp-element-button">Half-heartedly
 				posting stuff on Instagram</a></div>
 		<!-- /wp:button -->
 
-		<!-- wp:button {"backgroundColor":"white","width":100,"className":"is-style-acorn-drop-shadow"} -->
+		<!-- wp:button {"backgroundColor":"invalid","width":100,"className":"is-style-acorn-drop-shadow"} -->
 		<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-acorn-drop-shadow"><a
-				class="wp-block-button__link has-white-background-color has-background wp-element-button">Showing my
+				class="wp-block-button__link has-background has-invalid-background-color wp-element-button">Showing my
 				age on TikTok</a></div>
 		<!-- /wp:button -->
 	</div>
@@ -59,7 +59,7 @@
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group">
-	<!-- wp:social-links {"iconColor":"white","iconColorValue":"#ffffff","iconBackgroundColor":"foreground","iconBackgroundColorValue":"#000","layout":{"type":"flex","justifyContent":"center"}} -->
+	<!-- wp:social-links {"iconColorValue":"currentColor","iconBackgroundColorValue":"var(--wp--preset--color--foreground)","layout":{"type":"flex","justifyContent":"center"}} -->
 	<ul class="wp-block-social-links has-icon-color has-icon-background-color">
 		<!-- wp:social-link {"url":"#","service":"instagram"} /-->
 
