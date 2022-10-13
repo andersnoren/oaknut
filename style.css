@@ -133,6 +133,12 @@ a {
 
 /* BLOCK: COVER */
 
+:root .wp-block-cover .wp-block-cover__inner-container {
+	color: inherit;
+}
+
+/* Block Style: Space Between */
+
 .wp-block-cover.is-style-acorn-space-between .wp-block-cover__inner-container {
 	display: flex;
 	flex-direction: column;

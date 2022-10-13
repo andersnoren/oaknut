@@ -24,21 +24,34 @@
 				"color": {
 					"text": "var(--wp--preset--color--background)"
 				}
+			},
+			"core/site-title": {
+				"typography": {
+					"fontSize": "48px",
+					"fontWeight": "900",
+					"letterSpacing": "-0.02em"
+				}
 			}
 		},
 		"color": {
-			"gradient": "linear-gradient(180deg, #4B6CB7 0%, #182848 100%)"
+			"gradient": "linear-gradient(180deg, #4B6CB7 0%, #182848 100%)",
+			"text": "var(--wp--preset--color--foreground)"
 		},
 		"elements": {
 			"button": {
 				"color": {
-					"text": "var(--wp--preset--color--background)",
-					"background": "var(--wp--preset--color--foreground)"
+					"text": "var(--wp--preset--color--foreground)",
+					"background": "#4B6CB7"
+				}
+			},
+			"heading": {
+				"color": {
+					"text": "#F2C94C"
 				}
 			}
 		},
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--red-hat-text)"
+			"fontFamily": "var(--wp--preset--font-family--recursive)"
 		}
 	}
 }

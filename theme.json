@@ -373,6 +373,11 @@
 					"blockGap": "16px"
 				}
 			},
+			"core/cover": {
+				"color": {
+					"text": "inherit"
+				}
+			},
 			"core/paragraph": {
 				"typography": {
 					"lineHeight": "var(--wp--custom--typography--line-height--body)"
@@ -384,6 +389,9 @@
 				}
 			},
 			"core/site-title": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--heading-4)"
+				},
 				"elements": {
 					"link": {
 						"typography": {

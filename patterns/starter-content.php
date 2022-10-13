@@ -26,7 +26,7 @@
 
 				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained"}} -->
 				<div class="wp-block-group">
-					<!-- wp:site-title {"textAlign":"center","isLink":false,"fontSize":"heading-4"} /-->
+					<!-- wp:site-title {"textAlign":"center","isLink":false} /-->
 
 					<!-- wp:paragraph {"align":"center"} -->
 					<p class="has-text-align-center">Design studio in Stockholm.</p>
