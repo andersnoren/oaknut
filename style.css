@@ -3,7 +3,7 @@
 	Theme Name: Acorn
     Text Domain: acorn
 	Version: 0.1
-	Description: Acorn is a block theme designed to help you create Linktree-esque profile pages. Get up and running quickly with one of the 20 prebuilt theme styles, or create your own design with the 14 fonts and 8 button styles included in the theme. Acorn is built to be fast, easy to use, and fun!
+	Description: Acorn is a block theme designed to help you create Linktree-esque profile pages. Get up and running quickly with one of the 23 prebuilt theme styles, or create your own design with the 14 fonts and 8 button styles included in the theme. Acorn is built to be fast, easy to use, and fun!
 	Tags: one-column, custom-background, custom-colors, custom-logo, editor-style, translation-ready, block-styles, wide-blocks, full-site-editing
 	Author: Anders Norén
 	Author URI: https://andersnoren.se
@@ -129,6 +129,15 @@ a {
 .is-style-acorn-shape-ribbon .wp-block-button__link {
 	-webkit-clip-path: var( --acorn-shape-ribbon );
 	clip-path: var( --acorn-shape-ribbon );
+}
+
+/* BLOCK: COVER */
+
+.wp-block-cover.is-style-acorn-space-between .wp-block-cover__inner-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: inherit;
 }
 
 /* BLOCK: SOCIAL LINKS */

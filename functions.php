@@ -103,6 +103,13 @@ function acorn_register_block_styles() {
 		'label' 	=> esc_html__( 'Ribbon Shape', 'acorn' ),
 	) );
 
+	/* BLOCK: COVER */
+
+	register_block_style( 'core/cover', array(
+		'name'  	=> 'acorn-space-between',
+		'label' 	=> esc_html__( 'Space Between', 'acorn' ),
+	) );
+
 	/* BLOCK: SOCIAL LINKS */
 
 	register_block_style( 'core/social-links', array(
