@@ -91,7 +91,14 @@
 						{
 							"fontFamily": "Bitter",
 							"fontWeight": "100 900",
-							"fontStyle": "oblique 0deg 10deg",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/bitter.woff2" ]
+						},
+						{
+							"fontFamily": "Bitter",
+							"fontWeight": "100 900",
+							"fontStyle": "italic",
 							"fontStretch": "normal",
 							"src": [ "file:./assets/fonts/bitter.woff2" ]
 						}
@@ -105,7 +112,7 @@
 						{
 							"fontFamily": "Dancing Script",
 							"fontWeight": "100 900",
-							"fontStyle": "oblique 0deg 10deg",
+							"fontStyle": "normal",
 							"fontStretch": "normal",
 							"src": [ "file:./assets/fonts/dancing-script.woff2" ]
 						}
@@ -119,7 +126,7 @@
 						{
 							"fontFamily": "Edu QLD Beginner",
 							"fontWeight": "100 900",
-							"fontStyle": "oblique 0deg 10deg",
+							"fontStyle": "normal",
 							"fontStretch": "normal",
 							"src": [ "file:./assets/fonts/edu-qld-beginner.woff2" ]
 						}
@@ -133,7 +140,7 @@
 						{
 							"fontFamily": "Figtree",
 							"fontWeight": "100 900",
-							"fontStyle": "oblique 0deg 10deg",
+							"fontStyle": "normal",
 							"fontStretch": "normal",
 							"src": [ "file:./assets/fonts/figtree.woff2" ]
 						}
@@ -147,9 +154,16 @@
 						{
 							"fontFamily": "Inter",
 							"fontWeight": "100 900",
-							"fontStyle": "oblique 0deg 10deg",
+							"fontStyle": "normal",
 							"fontStretch": "normal",
 							"src": [ "file:./assets/fonts/inter.woff2" ]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontWeight": "100 900",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/inter-italic.woff2" ]
 						}
 					]
 				},
@@ -161,9 +175,16 @@
 						{
 							"fontFamily": "Libre Bodoni",
 							"fontWeight": "100 900",
-							"fontStyle": "oblique 0deg 10deg",
+							"fontStyle": "normal",
 							"fontStretch": "normal",
 							"src": [ "file:./assets/fonts/libre-bodoni.woff2" ]
+						},
+						{
+							"fontFamily": "Libre Bodoni",
+							"fontWeight": "100 900",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/libre-bodoni-italic.woff2" ]
 						}
 					]
 				},
@@ -175,9 +196,16 @@
 						{
 							"fontFamily": "Lora",
 							"fontWeight": "100 900",
-							"fontStyle": "oblique 0deg 10deg",
+							"fontStyle": "normal",
 							"fontStretch": "normal",
 							"src": [ "file:./assets/fonts/lora.woff2" ]
+						},
+						{
+							"fontFamily": "Lora",
+							"fontWeight": "100 900",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/lora-italic.woff2" ]
 						}
 					]
 				},
@@ -189,7 +217,7 @@
 						{
 							"fontFamily": "Recursive",
 							"fontWeight": "100 900",
-							"fontStyle": "oblique 0deg 10deg",
+							"fontStyle": "normal",
 							"fontStretch": "normal",
 							"src": [ "file:./assets/fonts/recursive.woff2" ]
 						}
@@ -203,9 +231,16 @@
 						{
 							"fontFamily": "Red Hat Mono",
 							"fontWeight": "100 900",
-							"fontStyle": "oblique 0deg 10deg",
+							"fontStyle": "normal",
 							"fontStretch": "normal",
 							"src": [ "file:./assets/fonts/red-hat-mono.woff2" ]
+						},
+						{
+							"fontFamily": "Red Hat Mono",
+							"fontWeight": "100 900",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/red-hat-mono-italic.woff2" ]
 						}
 					]
 				},
@@ -217,9 +252,16 @@
 						{
 							"fontFamily": "Red Hat Text",
 							"fontWeight": "100 900",
-							"fontStyle": "oblique 0deg 10deg",
+							"fontStyle": "normal",
 							"fontStretch": "normal",
 							"src": [ "file:./assets/fonts/red-hat-text.woff2" ]
+						},
+						{
+							"fontFamily": "Red Hat Text",
+							"fontWeight": "100 900",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/red-hat-text-italic.woff2" ]
 						}
 					]
 				},
@@ -231,7 +273,7 @@
 						{
 							"fontFamily": "Space Grotesk",
 							"fontWeight": "100 900",
-							"fontStyle": "oblique 0deg 10deg",
+							"fontStyle": "normal",
 							"fontStretch": "normal",
 							"src": [ "file:./assets/fonts/space-grotesk.woff2" ]
 						}
