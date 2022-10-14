@@ -33,25 +33,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
-a {
-	text-underline-offset: .15em;
-}
-
-/* ------------------------------------------- */
-/* Template Parts
-/* ------------------------------------------- */
-
-.wp-site-blocks {
-	box-sizing: border-box;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	min-height: calc( 100svh - var( --wp-admin--admin-bar--height, 0px ) );
-}
-
-.wp-site-blocks > * + * {
-	margin-top: 0;
-}
+a { text-underline-offset: .15em; }
 
 /* ------------------------------------------- */
 /* Blocks
