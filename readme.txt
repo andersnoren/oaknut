@@ -74,5 +74,5 @@ Source: https://fonts.google.com/specimen/Space+Grotesk
 
 == Changelog ==
 
-Version 0.1 (2022-11-02)
+Version 1.0 (2022-11-02)
 -------------------------
