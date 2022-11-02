@@ -11,7 +11,7 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 == Installation ==
 
-1. Make sure you're running WordPress 6.0 or later.
+1. Make sure you're running WordPress 6.1 or later.
 2. Upload the theme.
 3. Activate the theme.
 
@@ -74,5 +74,5 @@ Source: https://fonts.google.com/specimen/Space+Grotesk
 
 == Changelog ==
 
-Version 0.1 (2022-10-XX)
+Version 0.1 (2022-11-02)
 -------------------------
