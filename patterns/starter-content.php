@@ -1,12 +1,12 @@
 <?php
 /**
  * Title: Starter content for the theme.
- * Slug: acorn/starter-content
- * Categories: acorn
+ * Slug: oaknut/starter-content
+ * Categories: oaknut
  */
 ?>
-<!-- wp:cover {"dimRatio":0,"overlayColor":"background","minHeight":100,"minHeightUnit":"vh","contentPosition":"center center","isDark":false,"className":"is-style-acorn-space-between","style":{"spacing":{"padding":{"top":"0","bottom":"0","right":"0","left":"0"}}}} -->
-<div class="wp-block-cover is-light is-style-acorn-space-between"
+<!-- wp:cover {"dimRatio":0,"overlayColor":"background","minHeight":100,"minHeightUnit":"vh","contentPosition":"center center","isDark":false,"className":"is-style-oaknut-space-between","style":{"spacing":{"padding":{"top":"0","bottom":"0","right":"0","left":"0"}}}} -->
+<div class="wp-block-cover is-light is-style-oaknut-space-between"
 	style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;min-height:100vh"><span aria-hidden="true"
 		class="wp-block-cover__background has-background-background-color has-background-dim-0 has-background-dim"></span>
 	<div class="wp-block-cover__inner-container">
@@ -40,26 +40,26 @@
 			<div class="wp-block-group">
 				<!-- wp:buttons -->
 				<div class="wp-block-buttons">
-					<!-- wp:button {"backgroundColor":"invalid","width":100,"className":"is-style-acorn-drop-shadow"} -->
-					<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-acorn-drop-shadow">
+					<!-- wp:button {"backgroundColor":"invalid","width":100,"className":"is-style-oaknut-drop-shadow"} -->
+					<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-oaknut-drop-shadow">
 						<a class="wp-block-button__link has-invalid-background-color has-background wp-element-button">Spreading
 							doom and gloom on Twitter</a></div>
 					<!-- /wp:button -->
 
-					<!-- wp:button {"backgroundColor":"invalid","width":100,"className":"is-style-acorn-drop-shadow"} -->
-					<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-acorn-drop-shadow">
+					<!-- wp:button {"backgroundColor":"invalid","width":100,"className":"is-style-oaknut-drop-shadow"} -->
+					<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-oaknut-drop-shadow">
 						<a class="wp-block-button__link has-invalid-background-color has-background wp-element-button">Distracting
 							myself on Twitch</a></div>
 					<!-- /wp:button -->
 
-					<!-- wp:button {"backgroundColor":"invalid","width":100,"className":"is-style-acorn-drop-shadow"} -->
-					<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-acorn-drop-shadow">
+					<!-- wp:button {"backgroundColor":"invalid","width":100,"className":"is-style-oaknut-drop-shadow"} -->
+					<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-oaknut-drop-shadow">
 						<a class="wp-block-button__link has-invalid-background-color has-background wp-element-button">Half-heartedly
 							posting stuff on Instagram</a></div>
 					<!-- /wp:button -->
 
-					<!-- wp:button {"backgroundColor":"invalid","width":100,"className":"is-style-acorn-drop-shadow"} -->
-					<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-acorn-drop-shadow">
+					<!-- wp:button {"backgroundColor":"invalid","width":100,"className":"is-style-oaknut-drop-shadow"} -->
+					<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-oaknut-drop-shadow">
 						<a class="wp-block-button__link has-invalid-background-color has-background wp-element-button">Showing
 							my
 							age on TikTok</a></div>
@@ -85,7 +85,7 @@
 		</div>
 		<!-- /wp:group -->
 
-		<!-- wp:template-part {"slug":"footer","theme":"acorn","tagName":"footer","align":"full","className":"site-footer"} /-->
+		<!-- wp:template-part {"slug":"footer","theme":"oaknut","tagName":"footer","align":"full","className":"site-footer"} /-->
 	</div>
 </div>
 <!-- /wp:cover -->

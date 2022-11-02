@@ -1,4 +1,4 @@
-=== Acorn ===
+=== Oaknut ===
 Contributors: Anlino
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=anders%40andersnoren%2ese&lc=US&item_name=Free%20WordPress%20Themes%20from%20Anders%20Noren&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
 Requires at least: 6.1
@@ -18,12 +18,12 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 == Licenses ==
 
-Acorn is derived from the Davis Blocks theme, Copyright (c) 2022 Anders Norén.
+Oaknut is derived from the Davis Blocks theme, Copyright (c) 2022 Anders Norén.
 Davis Blocks is distributed under the terms of the GNU GPL version 2.0.
 
-Acorn bundles the following third-party resources:
+Oaknut bundles the following third-party resources:
 
-Acorn logo
+Oaknut logo
 License: Public Domain
 Source: Theme author
 

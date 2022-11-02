@@ -4,26 +4,26 @@
 	THEME SUPPORTS
 --------------------------------------------------------------------------------------------------- */
 
-function acorn_setup() {
+function oaknut_setup() {
 
 	add_theme_support( 'wp-block-styles' );
 
 	add_editor_style( 'style.css' );
 
 }
-add_action( 'after_setup_theme', 'acorn_setup' );
+add_action( 'after_setup_theme', 'oaknut_setup' );
 
 
 /*	-----------------------------------------------------------------------------------------------
 	ENQUEUE STYLESHEETS
 --------------------------------------------------------------------------------------------------- */
 
-function acorn_styles() {
+function oaknut_styles() {
 
-	wp_enqueue_style( 'acorn-styles', get_theme_file_uri( '/style.css' ), array(), wp_get_theme( 'acorn' )->get( 'Version' ) );
+	wp_enqueue_style( 'oaknut-styles', get_theme_file_uri( '/style.css' ), array(), wp_get_theme( 'oaknut' )->get( 'Version' ) );
 
 }
-add_action( 'wp_enqueue_scripts', 'acorn_styles' );
+add_action( 'wp_enqueue_scripts', 'oaknut_styles' );
 
 
 /*	-----------------------------------------------------------------------------------------------
@@ -31,14 +31,14 @@ add_action( 'wp_enqueue_scripts', 'acorn_styles' );
 	Register theme specific block pattern categories. The patterns themselves are stored in /patterns/.
 --------------------------------------------------------------------------------------------------- */
 
-function acorn_register_block_patterns() {
+function oaknut_register_block_patterns() {
 
-	register_block_pattern_category( 'acorn', array(
-		'label'		=> esc_html__( 'Acorn Patterns', 'acorn' ),
+	register_block_pattern_category( 'oaknut', array(
+		'label'		=> esc_html__( 'Oaknut Patterns', 'oaknut' ),
 	) );
 
 }
-add_action( 'init', 'acorn_register_block_patterns' );
+add_action( 'init', 'oaknut_register_block_patterns' );
 
 
 /*	-----------------------------------------------------------------------------------------------
@@ -46,7 +46,7 @@ add_action( 'init', 'acorn_register_block_patterns' );
 	Register theme specific block styles.
 --------------------------------------------------------------------------------------------------- */
 
-function acorn_register_block_styles() {
+function oaknut_register_block_styles() {
 
 	/* SHARED BLOCK STYLES */
 
@@ -58,20 +58,20 @@ function acorn_register_block_styles() {
 
 	$button_social_block_styles = array(
 		array(
-			'name'  	=> 'acorn-drop-shadow',
-			'label' 	=> esc_html__( 'Drop Shadow', 'acorn' ),
+			'name'  	=> 'oaknut-drop-shadow',
+			'label' 	=> esc_html__( 'Drop Shadow', 'oaknut' ),
 		),
 		array(
-			'name'  	=> 'acorn-shape-angle',
-			'label' 	=> esc_html__( 'Angle Shape', 'acorn' ),
+			'name'  	=> 'oaknut-shape-angle',
+			'label' 	=> esc_html__( 'Angle Shape', 'oaknut' ),
 		),
 		array(
-			'name'  	=> 'acorn-shape-bevel',
-			'label' 	=> esc_html__( 'Bevel Shape', 'acorn' ),
+			'name'  	=> 'oaknut-shape-bevel',
+			'label' 	=> esc_html__( 'Bevel Shape', 'oaknut' ),
 		),
 		array(
-			'name'  	=> 'acorn-shape-rabbet',
-			'label' 	=> esc_html__( 'Rabbet Shape', 'acorn' ),
+			'name'  	=> 'oaknut-shape-rabbet',
+			'label' 	=> esc_html__( 'Rabbet Shape', 'oaknut' ),
 		),
 	);
 
@@ -84,38 +84,38 @@ function acorn_register_block_styles() {
 	/* BLOCK: BUTTON */
 
 	register_block_style( 'core/button', array(
-		'name'  	=> 'acorn-shape-chevron-left',
-		'label' 	=> esc_html__( 'Chevron Left Shape', 'acorn' ),
+		'name'  	=> 'oaknut-shape-chevron-left',
+		'label' 	=> esc_html__( 'Chevron Left Shape', 'oaknut' ),
 	) );
 
 	register_block_style( 'core/button', array(
-		'name'  	=> 'acorn-shape-chevron-right',
-		'label' 	=> esc_html__( 'Chevron Right Shape', 'acorn' ),
+		'name'  	=> 'oaknut-shape-chevron-right',
+		'label' 	=> esc_html__( 'Chevron Right Shape', 'oaknut' ),
 	) );
 
 	register_block_style( 'core/button', array(
-		'name'  	=> 'acorn-shape-pointed',
-		'label' 	=> esc_html__( 'Pointed Shape', 'acorn' ),
+		'name'  	=> 'oaknut-shape-pointed',
+		'label' 	=> esc_html__( 'Pointed Shape', 'oaknut' ),
 	) );
 
 	register_block_style( 'core/button', array(
-		'name'  	=> 'acorn-shape-ribbon',
-		'label' 	=> esc_html__( 'Ribbon Shape', 'acorn' ),
+		'name'  	=> 'oaknut-shape-ribbon',
+		'label' 	=> esc_html__( 'Ribbon Shape', 'oaknut' ),
 	) );
 
 	/* BLOCK: COVER */
 
 	register_block_style( 'core/cover', array(
-		'name'  	=> 'acorn-space-between',
-		'label' 	=> esc_html__( 'Space Between', 'acorn' ),
+		'name'  	=> 'oaknut-space-between',
+		'label' 	=> esc_html__( 'Space Between', 'oaknut' ),
 	) );
 
 	/* BLOCK: SOCIAL LINKS */
 
 	register_block_style( 'core/social-links', array(
-		'name'  	=> 'acorn-shape-rounded',
-		'label' 	=> esc_html__( 'Rounded Shape', 'acorn' ),
+		'name'  	=> 'oaknut-shape-rounded',
+		'label' 	=> esc_html__( 'Rounded Shape', 'oaknut' ),
 	) );
 	
 }
-add_action( 'init', 'acorn_register_block_styles' );
+add_action( 'init', 'oaknut_register_block_styles' );
