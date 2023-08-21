@@ -5,11 +5,7 @@
 --------------------------------------------------------------------------------------------------- */
 
 function oaknut_setup() {
-
-	add_theme_support( 'wp-block-styles' );
-
 	add_editor_style( 'style.css' );
-
 }
 add_action( 'after_setup_theme', 'oaknut_setup' );
 
@@ -19,9 +15,7 @@ add_action( 'after_setup_theme', 'oaknut_setup' );
 --------------------------------------------------------------------------------------------------- */
 
 function oaknut_styles() {
-
 	wp_enqueue_style( 'oaknut-styles', get_theme_file_uri( '/style.css' ), array(), wp_get_theme( 'oaknut' )->get( 'Version' ) );
-
 }
 add_action( 'wp_enqueue_scripts', 'oaknut_styles' );
 
@@ -32,11 +26,9 @@ add_action( 'wp_enqueue_scripts', 'oaknut_styles' );
 --------------------------------------------------------------------------------------------------- */
 
 function oaknut_register_block_patterns() {
-
 	register_block_pattern_category( 'oaknut', array(
 		'label'		=> esc_html__( 'Oaknut Patterns', 'oaknut' ),
 	) );
-
 }
 add_action( 'init', 'oaknut_register_block_patterns' );
 
